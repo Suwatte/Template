@@ -15,10 +15,9 @@ export class Target extends Source {
     id: "com.template",
     version: 1,
     thumbnail: "default.png",
-    hasExplorePage: false,
-    primarilyAdultContent: false,
     website: "https://template.com",
     supportedLanguages: [],
+    nsfw: false,
   };
   getContent(contentId: string): Promise<Content> {
     throw new Error("Method not implemented.");
